@@ -26,5 +26,5 @@ interface JSONPlaceHolderService {
         @Header("Authorization") token: String,  // Asegúrate de pasar el token de autorización
         @Path("id") id: Int                      // Asegúrate de pasar el id del restaurante
     ): Call<Restaurant>
-}
 
+}
